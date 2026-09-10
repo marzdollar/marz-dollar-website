@@ -1,18 +1,19 @@
-
 body {
     background-color: brown;
+    color: white;
+    padding: 40px;
 }
 
 h1 {
-    color: white;
     font-size: 45px;
+    margin-bottom: 30px;
 }
 
 h2 {
-    color: white;
+    font-size: 30px;
+    margin-top: 40px;
 }
 
 p {
-    color: white;
     font-size: 22px;
 }
