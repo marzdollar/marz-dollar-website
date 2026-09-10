@@ -77,3 +77,13 @@ p {
     color: black;
     transform: scale(1.05);
 }
+.hero {
+    min-height: 100vh;
+    background-image: url("marz-dollar-hero.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 60px;
+}
