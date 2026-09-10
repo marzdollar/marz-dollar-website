@@ -79,7 +79,7 @@ p {
 }
 .hero {
     min-height: 100vh;
-    background-image: url("marz-dollar-hero.png");
+    background-image: url("./marz-dollar-hero.png");
     background-size: cover;
     background-position: center;
     display: flex;
