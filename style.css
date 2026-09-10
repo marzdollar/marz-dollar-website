@@ -41,3 +41,39 @@ button:hover {
     font-size: 22px;
     cursor: pointer;
 }
+body {
+    background-color: brown;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.main-button {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+}
