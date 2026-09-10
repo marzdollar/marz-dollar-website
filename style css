@@ -1,0 +1,17 @@
+body {
+    background-color: brown;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 22px;
+}
