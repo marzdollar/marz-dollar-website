@@ -87,3 +87,22 @@ p {
     align-items: flex-end;
     padding-bottom: 60px;
 }
+.navbar {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 45px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: gold;
+}
