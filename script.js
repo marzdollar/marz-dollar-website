@@ -1,7 +1,8 @@
 function sendMessage() {
 
     let name = document.getElementById("name").value;
-
+ let email = document.getElementById("email").value; 
+    
     if (name === "") {
         alert("Please enter your name.");
     } else {
@@ -9,4 +10,4 @@ function sendMessage() {
     }
 
 }
-let email = document.getElementById("email").value;
+
