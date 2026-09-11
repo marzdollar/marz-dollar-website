@@ -151,3 +151,60 @@ p {
     color: black;
     transform: scale(1.05);
 }
+.contact-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #111111, #3b1f00);
+    color: white;
+    text-align: center;
+    padding: 80px 30px;
+    box-sizing: border-box;
+}
+
+.contact-page h1 {
+    font-size: 50px;
+    color: gold;
+    margin-bottom: 20px;
+}
+
+.contact-page p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-page input,
+.contact-page textarea {
+    width: 500px;
+    max-width: 90%;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid gold;
+    box-sizing: border-box;
+}
+
+.contact-page textarea {
+    height: 150px;
+}
+
+.contact-page button {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    border: 2px solid gold;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact-page button:hover {
+    background-color: gold;
+    color: black;
+    transform: scale(1.05);
+}
