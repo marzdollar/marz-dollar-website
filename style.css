@@ -78,6 +78,7 @@ p {
     transform: scale(1.05);
 }
 .hero {
+    position relative;
     min-height: 100vh;
     background-image: url("./marz-dollar-hero.png");
     background-size: cover;
@@ -94,6 +95,7 @@ p {
     transform: translateX(-50%);
     display: flex;
     gap: 45px;
+    z-index:10;
 }
 
 .navbar a {
