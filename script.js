@@ -2,5 +2,10 @@ function sendMessage() {
 
     let name = document.getElementById("name").value;
 
-    alert("Welcome " + name + "! Your message was received.");
+    if (name === "") {
+        alert("Please enter your name.");
+    } else {
+        alert("Welcome " + name + "! Your message was received.");
+    }
+
 }
