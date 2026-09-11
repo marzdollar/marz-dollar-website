@@ -9,3 +9,4 @@ function sendMessage() {
     }
 
 }
+let email = document.getElementById("email").value;
