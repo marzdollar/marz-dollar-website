@@ -78,7 +78,7 @@ p {
     transform: scale(1.05);
 }
 .hero {
-    position relative;
+    position: relative;
     min-height: 100vh;
     background-image: url("./marz-dollar-hero.png");
     background-size: cover;
