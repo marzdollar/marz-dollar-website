@@ -1,3 +1,6 @@
 function sendMessage() {
-    alert("Message received! Welcome to Marz Dollar.");
+
+    let name = document.getElementById("name").value;
+
+    alert("Welcome " + name + "! Your message was received.");
 }
