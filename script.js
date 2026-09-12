@@ -10,7 +10,9 @@ function sendMessage() {
         alert("Please enter your name.");
     } else if (email === "") {
         alert("Please enter your email.");
-    } else {
+        else if (message === "") {
+    alert("Please enter your message.");
+}    } else {
         alert("Welcome " + name + "! Your message was received.");
     }
 
