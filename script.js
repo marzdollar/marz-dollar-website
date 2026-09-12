@@ -2,7 +2,7 @@ function sendMessage() {
 
     let name = document.getElementById("name").value;
     let email = document.getElementById("email").value;
-if (!email.includes("@")) {
+    let message = document.getElementById("message").value;if (!email.includes("@")) {
     alert("Please enter a valid email.");
     return;
 }    
